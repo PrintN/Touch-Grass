@@ -1,2 +1,2 @@
 # Touch-Grass
-An extension for touching grass!
+An extension for touching grass 🌿🤚
