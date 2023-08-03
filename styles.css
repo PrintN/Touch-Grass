@@ -1,0 +1,97 @@
+body {
+  background-image: url(/img/grass.jpg);
+  background-size: 50%;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 0 15px #43741a, 0 0 0 4px #f0f0f0;
+  width: 400px;
+  height: 550px;
+}
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: aliceblue;
+  font-size: 300%;
+  text-align: center;
+  user-select: none;
+}
+.by {
+  position: fixed;
+  bottom: 0px;
+  left: 128px;
+  color: aliceblue;
+  cursor: pointer;
+  background-color: #8bb837;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.custom-cursor {
+  cursor: url("/img/hand.cur"), pointer;
+}
+
+.icons {
+  color: #f0f0f0;
+  cursor: pointer;
+}
+.icons #settings {
+  position: fixed;
+  top: 60px;
+  left: 30px;
+}
+#history {
+  position: fixed;
+  top: 60px;
+  right: 30px;
+  cursor: pointer;
+  color: #f0f0f0;
+}
+.history-menu {
+  display: none;
+  position: absolute;
+  top: 90px;
+  right: 25px;
+  width: 220px;
+  height: 410px;
+  background-color: #8bb837;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  user-select: none;
+}
+
+#muteButtonContainer {
+  cursor: pointer;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.settings-menu {
+  display: none;
+  position: absolute;
+  top: 90px;
+  left: 25px;
+  width: 100px;
+  height: 100px;
+  background-color: #8bb837;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.settings-menu button {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: #928c8c;
+  text-align: left;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #8bb837;
+}

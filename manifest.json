@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Touch Grass!",
+    "version": "1.0",
+    "description": "An extension for touching VIRTUAL grass.",
+    "permissions": ["declarativeNetRequest", "storage", "activeTab"],
+    "author": "PrintN",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "/img/icons/icon.png",
+        "48": "/img/icons/icon.png",
+        "128": "/img/icons/icon.png",
+        "512": "/img/icons/icon.png"
+    }
+}
+  
